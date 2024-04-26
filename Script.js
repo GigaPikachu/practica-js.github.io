@@ -80,7 +80,7 @@ else if(parseInt(ejercicio) == 9) {
     for(num_1 = 0; num_1 <= posicion; num_1 ++){
         resultado += MiArray[num_1]
     }
-    dcomunet.write(resultado)
+    document.write(resultado)
     console.log(resultado)
 }
 
@@ -93,7 +93,7 @@ else if(parseInt(ejercicio) == 10) {
             resultado += MiArray[num_1]
         }
     }
-    dcomunet.write(resultado)
+    document.write(resultado)
     console.log(resultado)
 }
 
