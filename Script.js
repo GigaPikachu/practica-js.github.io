@@ -74,7 +74,16 @@ else if(parseInt(ejercicio) == 8) {
 }
 
 else if(parseInt(ejercicio) == 9) {
-    
+    MiArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    posicion = MiArray.length;
+    resultado = 0;
+    for(num_1 = 0; num_1 <= posicion; num_1 ++){
+        if (MiArray[num_1] % 3 == 0){
+            resultado += MiArray[num_1]
+        }
+    }
+    dcomunet.write(resultado)
+    console.log(resultado)
 }
 
 else if(parseInt(ejercicio) == 10) {
